@@ -57,3 +57,16 @@ z = x
 print(x is z)
 print(x is y)
 print(x == y)
+#membership operators also work with strings
+text = "Hello World"
+
+print("H" in text)
+print("hello" in text)
+print("z" not in text)
+#The & operator compares each bit and set it to 1 if both are 1, otherwise it is set to 0
+print(6 & 3)
+#Parentheses has the highest precedence
+print((6 + 3) - (6 + 3))
+#Addition + and subtraction - has the same precedence, and therefore we evaluate the expression from left to right:
+
+print(5 + 4 - 7 + 3)
